@@ -1,4 +1,6 @@
-function isItLong() {
+function isItLong(str) {
+  // let str = "Thats a long string! "
+  return  "Thats a long string!"
 
 }
 
