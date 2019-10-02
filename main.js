@@ -1,18 +1,26 @@
-function isItLong(str) {
-  // let str = "Thats a long string! "
+function isItLong(str) { 
+  if (str.length>20);
+
   return  "Thats a long string!"
 
-}
-
-function isItMedium() {
 
 }
 
-function isItShort() {
+function isItMedium(str) {
+
+if(str.length>=10 && str.length<=20);
+  return "Thats a regular sized string!"
 
 }
 
-function howLongIsMyString() {
+function isItShort(str) {
+  if (str.length < 10);
+  return 'Thats a small string'
+
+}
+
+function howLongIsMyString(str) {
+  if(str.length>20 && str.length)
 
 }
 
